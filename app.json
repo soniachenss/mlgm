@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f8b823",
+    "navigationBarTitleText": "soniachenss",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor":"#f7eacb",
+    "enablePullDownRefresh":"true",
+    "onReachBottomDistance":50
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#e98f36",
+    "backgroundColor": "#fff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath": "images/navbar/icon_Smile_not.png",
+        "selectedIconPath": "images/navbar/icon_Smile.png",
+        "text":"猫咪日常"
+      },
+      {
+        "pagePath":"pages/logs/logs",
+        "iconPath": "images/navbar/icon_toys_not.png",
+        "selectedIconPath": "images/navbar/icon_toys.png",
+        "text":"猫咪趣事"
+      }
+    ]
+  }
+}
