@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/scan/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -13,7 +14,7 @@
     "onReachBottomDistance":50
   },
   "tabBar": {
-    "color": "#fff",
+    "color": "#4d4d4d",
     "selectedColor": "#e98f36",
     "backgroundColor": "#fff",
     "list":[
@@ -22,6 +23,12 @@
         "iconPath": "images/navbar/icon_Smile_not.png",
         "selectedIconPath": "images/navbar/icon_Smile.png",
         "text":"猫咪日常"
+      },
+      {
+        "pagePath":"pages/scan/index",
+        "iconPath": "images/navbar/icon_Smile_not.png",
+        "selectedIconPath": "images/navbar/icon_Smile.png",
+        "text":"扫码"
       },
       {
         "pagePath":"pages/logs/logs",
