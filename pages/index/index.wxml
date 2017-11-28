@@ -1,4 +1,13 @@
 <!--index.wxml-->
+
+  <view class="search">
+      <!--<icon type="search" size="20" color="purple" class="search-icon outside"/>-->
+      <input class="search-input" placeholder="这是一个input" bindtap="bindFocus" auto-focus >
+                <icon type="search" size="20" color="purple" class="search-icon inside"/>
+      </input>
+  </view>
+  <view class="saoma" bindtap="scanClick">点我扫一扫</view>
+    <view class="show">{{show}}</view>
 <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
