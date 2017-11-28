@@ -2,7 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/scan/index"
+    "pages/scan/index",
+    "pages/search2/component2",
+    "pages/index/search/search"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -35,6 +37,12 @@
         "iconPath": "images/navbar/icon_toys_not.png",
         "selectedIconPath": "images/navbar/icon_toys.png",
         "text":"猫咪趣事"
+      },
+      {
+        "pagePath":"pages/search2/component2",
+        "iconPath": "images/navbar/icon_toys_not.png",
+        "selectedIconPath": "images/navbar/icon_toys.png",
+        "text":"搜索"
       }
     ]
   }
